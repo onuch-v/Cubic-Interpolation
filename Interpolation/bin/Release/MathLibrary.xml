@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MathLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:MathLibrary.Interpolation">
+            <summary>
+            Interpolation
+            </summary>
+        </member>
+        <member name="M:MathLibrary.Interpolation.CubicInterpolation(System.Double[],System.Double[],System.Double[])">
+            <summary>
+            It's Interpolation with cubic splines.
+            </summary>
+            <param name="sourceX">The source data OX (abscissa)</param>
+            <param name="sourceY">The source data OY (ordinate)</param>
+            <param name="newX">The new data OX (new abscissa)</param>
+            <returns>The New data OY (new ordinate)</returns>
+            sourceX is only data where sourceX[i] greater than sourceX[i - 1].
+            sourceX.Length must be more than 3.
+            sourceX[0] must be equal newX[0] and sourceX[end] must be equal to newX[end].
+            You can see the full algotithm at "de Boor, C., A Practical Guide to Splines, Springer-Verlag, 1978".
+            Author: Vadim Onuchin, onuch-v@ya.ru
+            © Valex Corp. https://github.com/ValexCorp 
+            Moscow, 2018
+        </member>
+    </members>
+</doc>
