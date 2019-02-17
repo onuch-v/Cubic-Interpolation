@@ -1,6 +1,9 @@
 # Cubic-Interpolation
 
-For testing please create empty project and additional this projects and click button "build".
+Update 17-february-2019
+
+Open in Visual Studio: MathLibrary/MathLibrary.csproj
+Use "Example.cs" for testing.
 
 If you have any questions then you can write me: onuch-v@ya.ru
 
